@@ -17,4 +17,8 @@ export class ProductsComponent implements OnInit {
     ).subscribe();
   }
 
+  addToCart(product: IProduct): void {
+    console.log("Add to cart", product)
+  }
+
 }
